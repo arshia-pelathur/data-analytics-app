@@ -39,9 +39,9 @@ Develop and deploy a scalable data analytics application with automated CI/CD pi
 ├── requirements.txt       # Python dependencies
 ├── Jenkinsfile            # Jenkins pipeline definition
 └── README.md              # Documentation
-
 ```
-##d Setup Instructions
+
+## Setup Instructions
 
 ### Prerequisites
 - Python (>=3.8)
