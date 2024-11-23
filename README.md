@@ -21,21 +21,23 @@ Develop and deploy a scalable data analytics application with automated CI/CD pi
 - **Testing Frameworks:** Pytest
 
 ## Repository Structure
-├── data # Contains sample data files
-│ └── sample.csv # Sample CSV data for the application
-├── src # Source code for the application
-│ ├── app.py # Flask-based web app
-│ ├── analysis.py # Data analysis logic
-│ └── utils.py # Utility functions
-├── tests # Unit tests
-│ └── test_analysis.py # Pytest-based test for analysis
-├── k8s # Kubernetes manifests
-│ ├── deployment.yaml # Kubernetes deployment configuration
-│ └── service.yaml # Kubernetes service configuration
-├── Dockerfile # Dockerfile to containerize the application
-├── requirements.txt # Python dependencies
-├── Jenkinsfile # Jenkins pipeline definition
-└── README.md # Documentation
+
+```plaintext
+├── data                   # Contains sample data files
+│   └── sample.csv         # Sample CSV data for the application
+├── src                    # Source code for the application
+│   ├── app.py             # Flask-based web app
+│   ├── analysis.py        # Data analysis logic
+│   └── utils.py           # Utility functions
+├── tests                  # Unit tests
+│   └── test_analysis.py   # Pytest-based test for analysis
+├── k8s                    # Kubernetes manifests
+│   ├── deployment.yaml    # Kubernetes deployment configuration
+│   └── service.yaml       # Kubernetes service configuration
+├── Dockerfile             # Dockerfile to containerize the application
+├── requirements.txt       # Python dependencies
+├── Jenkinsfile            # Jenkins pipeline definition
+└── README.md              # Documentation
 
 ## Setup Instructions
 
