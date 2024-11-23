@@ -91,5 +91,5 @@ pytest tests/
 
 ## Contributor
 * Name: Arshia Pelathur Gururaj
-* Profile: [Arshia's GitHub Profile](https://github.com/arshia-pelathur)
+* Profile: [GitHub Profile](https://github.com/arshia-pelathur)
 
