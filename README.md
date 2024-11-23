@@ -34,12 +34,14 @@ Develop and deploy a scalable data analytics application with automated CI/CD pi
 ├── k8s                    # Kubernetes manifests
 │   ├── deployment.yaml    # Kubernetes deployment configuration
 │   └── service.yaml       # Kubernetes service configuration
+|── Venv                   # Virtual Environment
 ├── Dockerfile             # Dockerfile to containerize the application
 ├── requirements.txt       # Python dependencies
 ├── Jenkinsfile            # Jenkins pipeline definition
 └── README.md              # Documentation
+
 ```
-## Setup Instructions
+##d Setup Instructions
 
 ### Prerequisites
 - Python (>=3.8)
