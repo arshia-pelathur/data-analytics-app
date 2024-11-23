@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    bat 'pip install -r requirements.txt'
+                    bat 'C:\Users\arshi\anaconda3\Lib\site-packages\pip install -r requirements.txt'
                 }
             }
         }
