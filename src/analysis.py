@@ -5,6 +5,6 @@ def run_analysis():
     data = pd.read_csv('data/sample.csv')
     
     # Perform analysis (e.g., calculate mean)
-    mean_value = data['value'].mean()
+    mean_value = data['Age'].mean()
 
     return {'mean': mean_value}
